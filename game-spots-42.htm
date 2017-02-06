@@ -1,0 +1,66 @@
+﻿<!DOCTYPE HTML>
+<html>
+<!-- html manifest="game-spots-42.appcache.txt" -->
+<head>
+    <title>Catch Boll</title>
+    <meta charset='utf-8' />
+
+    <style>
+        body {
+            background-color: darkgreen;
+            color: white;
+            text-align: center;
+        }
+
+        table, th, td {
+            border: 2px solid darkblue;
+            text-align: center;
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        }
+
+        h3, pre {
+            margin: 40px;
+            text-align: left;
+        }
+
+    </style>
+
+    <script src="game-spots-42-main.js"></script>
+    <script src="game-spots-42-config.js"></script>
+    <script src="game-spots-42-model.js"></script>
+    <script src="game-spots-42-canva.js"></script>
+    <script src="game-spots-42-lang.js"></script>
+    <script src="game-spots-42-ui.js"></script>
+
+</head>
+
+<body onload="APELSERG.MAIN.OnLoad(true)">
+
+    SPOTS 42
+
+    <input id="APELSERG_InputSettings" type='button' value='' onclick='APELSERG.UI.ShowSettings();' />
+    <input id="APELSERG_InputPoints" type='button' value='' onclick='APELSERG.UI.ShowPoints();' />
+    <input id="APELSERG_InputHelp" type='button' value='' onclick='APELSERG.UI.ShowHelp();' />
+    <input id="APELSERG_InputStartStop" type='button' value='' onclick='APELSERG.MAIN.StartStopContinue();' />
+
+    <hr />
+
+    <div id='APELSERG_DivSettings'></div>
+    <div id='APELSERG_DivPoints'></div>
+    <div id='APELSERG_DivHelp'></div>
+
+    <div id='APELSERG_DivCanvas'>
+        <canvas id="APELSERG_CanvasSpots"></canvas>
+    </div>
+
+    <hr />
+
+    apelserg 2017
+
+</body>
+</html>

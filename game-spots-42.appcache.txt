@@ -1,0 +1,20 @@
+﻿CACHE MANIFEST
+# Ver 0.2.0
+# 003
+
+CACHE:
+
+game-spots-42.htm
+game-spots-42-canva.js
+game-spots-42-config.js
+game-spots-42-lang.js
+game-spots-42-main.js
+game-spots-42-model.js
+game-spots-42-ui.js
+
+
+NETWORK:
+
+*
+
+FALLBACK:
